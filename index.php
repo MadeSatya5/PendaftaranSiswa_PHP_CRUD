@@ -6,7 +6,7 @@
     <title>Pendaftaran Siswa Baru | SMK Coding</title>
     <style>
         body {
-            max-width: 900px;
+            max-width: 1000px;
             margin: auto;
             font-family: Arial, sans-serif;
             color: #333;

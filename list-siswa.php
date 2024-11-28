@@ -6,7 +6,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            max-width: 800px;
+            max-width: 1000px;
             margin: auto;
             background-color: #f4f4f4;
             padding: 20px;
@@ -87,6 +87,7 @@
             <th>No</th>
             <th>Nama</th>
             <th>Alamat</th>
+            <th>Foto</th>
             <th>Jenis Kelamin</th>
             <th>Agama</th>
             <th>Sekolah Asal</th>
@@ -105,6 +106,7 @@
             echo "<td>".$siswa['id']."</td>";
             echo "<td>".$siswa['nama']."</td>";
             echo "<td>".$siswa['alamat']."</td>";
+            echo "<td><img src='images/".$siswa['foto']."' width='100' height='100'></td>";
             echo "<td>".$siswa['jenis_kelamin']."</td>";
             echo "<td>".$siswa['agama']."</td>";
             echo "<td>".$siswa['sekolah_asal']."</td>";

@@ -73,7 +73,7 @@
             <h3>Formulir Pendaftaran Siswa Baru</h3>
         </header>
 
-        <form action="proses-pendaftaran.php" method="POST">
+        <form action="proses-pendaftaran.php" method="POST"  enctype="multipart/form-data">
 
             <fieldset>
 
@@ -84,6 +84,10 @@
             <p>
                 <label for="alamat">Alamat: </label>
                 <textarea name="alamat"></textarea>
+            </p>
+            <p>
+                <label for="foto">Foto</label>
+                <input type="file" name="foto">
             </p>
             <p>
                 <label for="jenis_kelamin">Jenis Kelamin: </label>
