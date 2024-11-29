@@ -77,6 +77,7 @@
 
     <nav>
         <a href="form-daftar.php">[+] Tambah Baru</a>
+        <a href="pdf.php">Download PDF</a>
     </nav>
 
     <br>
